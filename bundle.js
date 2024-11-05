@@ -363,7 +363,8 @@
               "ul",
               null,
               r.default.createElement("li", null, r.default.createElement(i.IndexLink, { to: "/", activeClassName: "is-active" }, "Home")),
-              r.default.createElement("a", {href: "https://airtable.com/appf7D6fF4UUK1uth/pagaqJvaCjL2dynU6/form"}, "Submit New Photos of Jerry"))
+              r.default.createElement("li", null, r.default.createElement("a", { href: "https://airtable.com/appf7D6fF4UUK1uth/pagaqJvaCjL2dynU6/form", target: "_blank" }, "Submit New Photos of Jerry"))
+            )
           )
         );
       },
