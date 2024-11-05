@@ -6,12 +6,12 @@ module.exports = {
     'react-hot-loader/patch',
     'webpack-dev-server/client?http://localhost:3000',
     'webpack/hot/only-dev-server',
-    path.resolve(__dirname, 'js/index.js'),
+    path.resolve(__dirname, 'src/index.js'), // Updated entry point to src/index.js
   ],
 
   output: {
     filename: 'bundle.js',
-    path: __dirname,
+    path: path.resolve(__dirname, 'dist'), // Output to a 'dist' directory (recommended for production builds)
     publicPath: '/',
   },
 
@@ -32,12 +32,11 @@ module.exports = {
 
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
-    new webpack.NamedModulesPlugin(),
     new webpack.NoEmitOnErrorsPlugin(),
   ],
 
   devServer: {
-    contentBase: __dirname,
+    contentBase: path.join(__dirname), // Point to root if index.html is there
     host: '0.0.0.0',
     port: 3000,
     historyApiFallback: true,

@@ -355,7 +355,7 @@
         return r.default.createElement(
           "header",
           { className: "header" },
-          r.default.createElement("h1", null, r.default.createElement("img", { src: "./images/logo.png", alt: "React Stack Grid" })),
+          r.default.createElement("h1", null, r.default.createElement("img", { src: "./images/logo.png", alt: "Happy 100th Birthday Jerry!" })),
           r.default.createElement(
             "nav",
             null,
@@ -363,11 +363,7 @@
               "ul",
               null,
               r.default.createElement("li", null, r.default.createElement(i.IndexLink, { to: "/", activeClassName: "is-active" }, "Home")),
-              r.default.createElement("li", null, r.default.createElement(i.Link, { to: "/horizontal/", activeClassName: "is-active" }, "Horizontal")),
-              r.default.createElement("li", null, r.default.createElement(i.Link, { to: "/change-size/", activeClassName: "is-active" }, "Change Size")),
-              r.default.createElement("li", null, r.default.createElement(i.Link, { to: "/real-world/", activeClassName: "is-active" }, "Real World")),
-              r.default.createElement("li", null, r.default.createElement("a", { href: "https://github.com/tsuyoshiwada/react-stack-grid" }, "GitHub")),
-              r.default.createElement("li", null, r.default.createElement("a", { href: "https://coindataflow.com/en" }, "Example"))
+              r.default.createElement("li", null, r.default.createElement("a", { href: "https://airtable.com/appf7D6fF4UUK1uth/pagaqJvaCjL2dynU6/form", target: "_blank" }, "Submit New Photos of Jerry"))
             )
           )
         );
@@ -1172,6 +1168,8 @@
         { src: "./images/photos/photo20.jpg", label: "Sample image 20" },
         { src: "./images/photos/photo21.jpg", label: "Sample image 21" },
         { src: "./images/photos/photo22.jpg", label: "Sample image 22" },
+        { src: "./images/photos/photo23.jpg", label: "Sample image 23" },
+        { src: "./images/photos/rf2.jpg", label: "Sample image 24" },
       ],
       c = function () {
         return i.default.createElement(
