@@ -6,7 +6,7 @@ import { IndexLink, Link } from 'react-router';
 
 const Header = () => (
   <header className="header">
-    <h1><img src="./images/logo.png" alt="React Stack Grid" /></h1>
+    <h1><img src="./images/logo.png" alt="Happy 100th Birthday Jerry!" /></h1>
     <nav>
       <ul>
         <li><IndexLink to="/" activeClassName="is-active">Home</IndexLink></li>
