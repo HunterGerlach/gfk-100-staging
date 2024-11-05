@@ -28,6 +28,8 @@ const images = [
   { src: './images/photos/photo20.jpg', label: 'Sample image 20' },
   { src: './images/photos/photo21.jpg', label: 'Sample image 21' },
   { src: './images/photos/photo22.jpg', label: 'Sample image 22' },
+  { src: './images/photos/photo23.jpg', label: 'Sample image 23' },
+  { src: './images/photos/rf2.jpg', label: 'Sample image 24' },
 ];
 
 
