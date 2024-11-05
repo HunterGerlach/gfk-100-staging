@@ -10,7 +10,7 @@ const Header = () => (
     <nav>
       <ul>
         <li><IndexLink to="/" activeClassName="is-active">Home</IndexLink></li>
-        <li><Link to="/real-world/" activeClassName="is-active">Real World</Link></li>
+        {/* <li><Link to="/real-world/" activeClassName="is-active">Real World</Link></li> */}
         <li><a href="https://airtable.com/appf7D6fF4UUK1uth/pagaqJvaCjL2dynU6/form">Submit New Photos of Jerry</a></li>
       </ul>
     </nav>
